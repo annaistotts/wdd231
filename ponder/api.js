@@ -1,7 +1,7 @@
 const baseUrl = "https://developer.nps.gov/api/v1/";
 
 async function getJson(endpoint) {
-  const apiKey = "nTDgoKg2ZyehIvDywLFDeD3sClKqjy8AHzjdlZnE"; 
+  const apiKey = "api key"; 
   const url = baseUrl + endpoint;
   const options = {
     method: "GET",
